@@ -4,9 +4,9 @@ description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and w
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://yuqishi95.github.io" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+paginate:	1 # The number of posts to show per page on your homepage
 
 # Social
 facebook: facebook
@@ -41,10 +41,10 @@ lsi: False
 username: samanyougarg #github username
 repo: hanuman #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+relative_source: ../ #source directory
+destination: ../ #destination directory
+production_url:  https://yuqishi95.github.io
+source_url:  https://yuqishi95.github.io #source repository url
 
 exclude:
   - README.md
